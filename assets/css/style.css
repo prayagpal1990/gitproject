@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body { padding: 0; margin: 0; font-family: 'Lora', serif; background: #FFEFF9; }
+a { text-decoration: none;  color: #000; }
+p { margin: 0; }
+img { display: block; max-width: 100%; }
+.container { max-width: 1366px; }
+.main-section { display: inline-block; width: 100%; padding: 50px 20px; box-sizing: border-box;  }
+.left-bar h2 { font-size: 59px; font-weight: 700; line-height: 75px; color: #581E1E; padding: 0; margin: 0; }
+.left-bar ul { padding: 30px 0 20px 0; margin: 0; list-style: none; }
+.left-bar ul li { font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; line-height: 24px; color: #000; position: relative; 
+padding: 0 0 0 25px; margin: 10px 0; box-sizing: border-box; }
+.left-bar ul li:before { content: ''; background: url(../images/star-icon.png) no-repeat center center; width: 17px; height: 17px;
+position: absolute; left: 0; top: 3px; }
+.price-bar { display: flex; align-items: center; }
+.price-bar .price { font-family: 'Roboto', sans-serif; font-size: 34px; font-weight: 700; color: #581E1E;  }
+.price-bar .price span { font-size: 22px; font-weight: 400; color: #581E1E; padding-right: 8px; box-sizing: border-box; }
+.price-bar .per-text { font-family: 'Roboto', sans-serif; font-size: 21px; font-weight: 400; color: #000; padding-left: 20px; box-sizing: border-box; }
+.membership-btn { display: inline-block; margin-top: 25px;  }
+.membership-btn a { display: flex; align-items: center; background: #FF8686; border-radius: 25px; padding: 10px 30px; box-sizing: border-box;  
+font-family: 'Roboto', sans-serif; font-size: 25px; font-weight: 400; color: #fff; line-height: 28px; }
+.membership-btn a:after { display: inline-block; content: ''; background: url(../images/btn-arrow.png) no-repeat center center; width: 19px; height: 10px; margin-left: 10px; }
+.save-text { display: block; font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 400; color: #666; padding-top: 10px; }
+.right-bar { display: inline-block; height: 520px; width: 100%; position: relative; 
+	background: url(../images/image_2023_08_08T11_29_25_334Z.png) no-repeat 70% bottom; }
+ .portion-hand { float: right; position: relative; z-index: 1; margin-right: 120px; }
+ .portion-hand2 { width: 32px; position: absolute; right: 45px; top: -20px; }
+ .portion-content-1 { font-size: 25px; font-weight: 700; color: #581E1E; line-height: 33px; 
+	max-width: 190px;
+	text-align: center;	
+	background: #FFFFFF;
+	box-shadow: 0px 24px 54px rgba(0, 0, 0, 0.11);
+	border-radius: 13px;
+	padding: 21px 20px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 83px;
+	top: 150px; 
+	z-index: 2;
+ }
+ .portion-content-2 { font-size: 25px; font-weight: 700; color: #581E1E; line-height: 33px; 
+	max-width: 190px;
+	text-align: center;	
+	background: #FFFFFF;
+	box-shadow: 0px 24px 54px rgba(0, 0, 0, 0.11);
+	border-radius: 13px;
+	padding: 21px 20px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0px;
+	bottom: 20px; 
+ }
+ .img-01 {
+   width: 102px;	
+   position: absolute;
+   top: 250px;
+   left: -20px;	
+ }
+
+.icon-01 {
+	width: 40px;
+	position: absolute;
+	top: 350px;
+	left: 80px;
+}
+
+.icon-02 {
+	width: 40px;
+	position: absolute;
+	top: 200px;
+	right: 30px;
+}
+
+@media screen and (max-width: 1150px) { 
+  .portion-hand {
+    position: absolute;
+    margin-right: 0;	
+  }
+}
+@media screen and (max-width: 991px) { 
+  .main-section {
+    text-align: center;	
+  }	
+  .left-bar ul {
+  	text-align: left;
+  }
+  .membership-btn {
+  	float: left;
+  }
+  .save-text {
+    display: inline-block;
+    width: 100%;
+    text-align: left;	
+  }
+  .right-bar {
+    max-width: 638px;
+    margin: 80px 0 0 0; 	
+  }
+  .portion-hand {
+    margin: 0;
+    padding: 0 115px;
+    box-sizing: border-box; 
+    position: absolute;
+    bottom: 0; 	
+  }
+  .portion-hand2 {
+  	 right: 165px;
+  }
+}
+
+@media screen and (max-width: 767px) { 
+ .left-bar h2 {
+   font-size: 32px;
+   line-height: 40px;	
+ }
+ .left-bar ul li {
+   font-size: 14px;
+   line-height: 20px;	
+ }
+ .price-bar .price span {
+   font-size: 15px;
+   padding-right: 5px; 	
+ }
+ .price-bar .price {
+   font-size: 27px;	
+ }
+ .price-bar .per-text {
+   font-size: 15px;
+   padding-left: 10px;	
+ }
+ .membership-btn {
+   margin-top: 15px; 	
+ }
+ .membership-btn a {
+   font-size: 18px;
+   padding: 10px 20px; 	
+ }
+ .save-text {
+   font-size: 14px;	
+ }
+ .portion-content-1 {
+   font-size: 18px;
+   line-height: 18px;	
+ }
+ .portion-content-2 {
+   font-size: 18px;
+   line-height: 18px;	
+ } 
+}
+
+@media screen and (max-width: 640px) { 
+  .right-bar {
+  	max-width: 320px;
+  	background-size: 70%;
+  	margin: -50px 0 0 0; 
+  }
+.portion-hand {
+	padding: 0;
+	max-width: 270px;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+}
+  .portion-hand2 {
+	right: 40px;
+  }
+  .portion-content-1 {
+	font-size: 18px;
+	line-height: 18px;
+	left: -30px;
+	top: 220px;
+  }
+  .icon-02 {
+  	right: -10px;
+  }
+.img-01 {
+	width: 70px;
+	position: absolute;
+	top: 320px;
+	left: -40px;
+}  
+.portion-content-2 {
+	right: -50px;
+}
+.icon-01 {
+	width: 32px;
+	position: absolute;
+	top: 380px;
+	left: 0;
+}
+
+}
+
+
+
+ 
